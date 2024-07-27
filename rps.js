@@ -112,7 +112,7 @@ function playGame(playerMove){
     //results
     document.querySelector('.js-results').innerHTML=`${results}`;
     //moves results
-    document.querySelector('.js-moves-results').innerHTML=`You <img src="images/${playerMove}-emoji.png" class="move-img"> <img src="images/${computerMove}-emoji.png" class="move-img">Computer`;
+    document.querySelector('.js-moves-results').innerHTML=`You <img src="${playerMove}-emoji.png" class="move-img"> <img src="${computerMove}-emoji.png" class="move-img">Computer`;
     //score
     document.querySelector('.js-score').innerHTML=`Booyah:${Score.booyah}, Defeated:${Score.defeated}, Tie:${Score.tie}`;
 }
