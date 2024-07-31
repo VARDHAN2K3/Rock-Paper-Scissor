@@ -25,7 +25,6 @@ body{
   border:3px solid white;
   width: 90px;
   height: 90px;
-  border-radius: 50%;
   margin-right:20px;
   cursor:pointer;
   display: flex;
