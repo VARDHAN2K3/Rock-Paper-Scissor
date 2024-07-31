@@ -15,6 +15,9 @@ body{
   font-size:32px;
   margin-bottom:40px;
 }
+.move-div{
+  display:flex;
+}
 .move-img{
   height:50px;
 }
