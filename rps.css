@@ -1,13 +1,14 @@
 body{
   font-family:Arial;
-  background-color: black;
-  color:white;
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
   padding-bottom:100px;
 }
 .rps{
   display:flex;
   flex-direction:column;
   align-items: center;
+  justify-content: space-around;
   margin-top:70px;
 }
 .title{
@@ -15,31 +16,37 @@ body{
   font-size:32px;
   margin-bottom:40px;
 }
-.move-img{
-  height:50px;
+.move-btns-div{
+  margin-bottom:40px;
+  display: flex;
 }
 .move-btn{
   background-color: transparent;
   border:3px solid white;
-  height:100px;
-  width:100px;
-  border-radius:100%;
-  margin-right:10px;
-  margin-bottom:40px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-right:20px;
   cursor:pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.move-img{
+  height:50px;
 }
 .results{
   font-weight:bold;
   font-size:26px;
-  margin-bottom:30px;
+  margin-bottom: 20px;
 }
 .move-results{
   font-size:18px;
+  margin-bottom:30px;
 }
 .score{
-  margin-top:30px;
-  margin-bottom:16px;
   font-size:18px;
+  margin-bottom:20px;
 }
 .reset-btn,
 .auto-play-btn{
@@ -47,7 +54,7 @@ body{
   background-color: white;
   border:none;
   font-size:16px;
-  margin-right:8px;
+  margin-right:10px;
   cursor:pointer;
   transition: opacity 0.15s;
   border-radius: 25px;
@@ -56,8 +63,9 @@ body{
 .auto-play-btn:hover{
   opacity: 0.96;
 }
+
 @media screen and (max-width:412px){
   .title{
-    font-size: 90px;
+    font-size: 60px;
   }
 }
