@@ -13,7 +13,7 @@ body{
 }
 .title{
   font-weight:bold;
-  font-size:26px;
+  font-size:32px;
   margin-bottom:40px;
 }
 .move-div{
@@ -23,8 +23,8 @@ body{
 .move-btn{
   background-color: transparent;
   border:3px solid white;
-  width: 84px;
-  height: 84px;
+  width: 90px;
+  height: 90px;
   border-radius:50%;
   margin-right:20px;
   cursor:pointer;
