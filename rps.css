@@ -31,6 +31,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  -webkit-tap-highlight-color:transparent;
 }
 .move-img{
   height:50px;
@@ -58,6 +59,7 @@ body{
   cursor:pointer;
   transition: opacity 0.15s;
   border-radius: 25px;
+  -webkit-tap-highlight-color:transparent;
 }
 .reset-btn:hover,
 .auto-play-btn:hover{
