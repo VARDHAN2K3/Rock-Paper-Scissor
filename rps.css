@@ -66,8 +66,15 @@ body{
   opacity: 0.96;
 }
 
-@media screen and (max-width:412px){
+@media screen and (max-width:570px){
   .title{
     font-size: 60px;
+  }
+  .move-btn{
+    height:150px;
+    width:150px;
+  }
+  .move-img{
+    height:100px;
   }
 }
