@@ -56,3 +56,8 @@ body{
 .auto-play-btn:hover{
   opacity: 0.96;
 }
+@media screen and (max-width:412px){
+  .title{
+    font-size: 90px;
+  }
+}
