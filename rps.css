@@ -16,7 +16,7 @@ body{
   font-size:32px;
   margin-bottom:40px;
 }
-.move-div{
+.move-btns-div{
   margin-bottom:40px;
   display: flex;
 }
@@ -25,13 +25,13 @@ body{
   border:3px solid white;
   width: 90px;
   height: 90px;
-  border-radius:50%;
+  border-radius: 50%;
   margin-right:20px;
   cursor:pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  -webkit-tap-highlight-color:transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 .move-img{
   height:50px;
@@ -59,15 +59,9 @@ body{
   cursor:pointer;
   transition: opacity 0.15s;
   border-radius: 25px;
-  -webkit-tap-highlight-color:transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 .reset-btn:hover,
 .auto-play-btn:hover{
   opacity: 0.96;
-}
-
-@media screen and (max-width:412px){
-.rps{
-    width:1em;
-  }
 }
